@@ -1,0 +1,85 @@
+[
+  {
+    "scenario": "client.factory.types",
+    "baseType": "io.aftersound.weave.client.ClientFactory",
+    "extensionTypes": [
+    ]
+  },
+  {
+    "scenario": "codec.factory.types",
+    "baseType": "io.aftersound.weave.codec.CodecFactory",
+    "extensionTypes": [
+      "io.aftersound.weave.codec.BooleanCodecFactory",
+      "io.aftersound.weave.codec.ChainedCodecFactory",
+      "io.aftersound.weave.codec.DateFormatCodecFactory",
+      "io.aftersound.weave.codec.DoubleCodecFactory",
+      "io.aftersound.weave.codec.FloatCodecFactory",
+      "io.aftersound.weave.codec.IntegerCodecFactory",
+      "io.aftersound.weave.codec.JavaClassCodecFactory",
+      "io.aftersound.weave.codec.LongCodecFactory",
+      "io.aftersound.weave.codec.RangeCodecFactory",
+      "io.aftersound.weave.codec.StringCodecFactory"
+    ]
+  },
+  {
+    "scenario": "cache.factory.types",
+    "baseType": "io.aftersound.weave.service.cache.CacheFactory",
+    "extensionTypes": [
+    ]
+  },
+  {
+    "scenario": "cache.key.generator.types",
+    "baseType": "io.aftersound.weave.service.cache.KeyGenerator",
+    "extensionTypes": [
+    ]
+  },
+  {
+    "scenario": "param.validator.types",
+    "baseType": "io.aftersound.weave.service.request.Validator",
+    "extensionTypes": [
+    ]
+  },
+  {
+    "scenario": "param.deriver.types",
+    "baseType": "io.aftersound.weave.service.request.Deriver",
+    "extensionTypes": [
+    ]
+  },
+  {
+    "scenario": "authenticator.types",
+    "baseType": "io.aftersound.weave.service.security.Authenticator",
+    "extensionTypes": [
+    ]
+  },
+  {
+    "scenario": "authorizer.types",
+    "baseType": "io.aftersound.weave.service.security.Authorizer",
+    "extensionTypes": [
+    ]
+  },
+  {
+    "scenario": "admin.resource.manager.types",
+    "baseType": "io.aftersound.weave.resource.ResourceManager",
+    "extensionTypes": [
+    ]
+  },
+  {
+    "scenario": "admin.service.executor.types",
+    "baseType": "io.aftersound.weave.service.ServiceExecutor",
+    "extensionTypes": [
+    ]
+  },
+  {
+    "scenario": "resource.manager.types",
+    "baseType": "io.aftersound.weave.resource.ResourceManager",
+    "extensionTypes": [
+    ]
+  },
+  {
+    "scenario": "service.executor.types",
+    "baseType": "io.aftersound.weave.service.ServiceExecutor",
+    "extensionTypes": [
+      "io.aftersound.weave.service.sample.GreetingServiceExecutor"
+    ]
+  }
+]
